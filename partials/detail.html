@@ -1,0 +1,22 @@
+<div class="row">
+	<div class="col-lg-6">
+		<div class="jumbotron">
+		  <h1>{{song.artistName}}</h1>
+
+		  <img class="media-object img-rounded" ng-src="{{song.artworkUrl100}}">
+
+		  <p>
+		  	Song : {{song.trackName}}
+		  </p>
+
+		  <audio controls>
+		    <source ng-src="{{song.previewUrl}}" type="audio/mpeg">
+		    Your browser does not support the audio element.
+		  </audio>
+
+		  <p>
+		  	<a href="#" class="btn btn-primary btn-lg">Back</a>
+		  </p>
+		</div>
+	</div>
+</div>
